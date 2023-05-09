@@ -1,7 +1,7 @@
 CGO_ENABLED=1
 .PHONY: build
 build:
-	go build -v ./cmd/apiserver
+	go build -v ./cmd/server
 
 .PHONY: test
 test:
